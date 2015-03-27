@@ -40,9 +40,9 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[/opt/bitnami/mysql/tmp/mysql.sock]]></host>
-                    <username><![CDATA[bn_magento]]></username>
-                    <password><![CDATA[50eb5d123f]]></password>
+                    <host><![CDATA[127.0.0.1]]></host>
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[mysql]]></password>
                     <dbname><![CDATA[bitnami_magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
