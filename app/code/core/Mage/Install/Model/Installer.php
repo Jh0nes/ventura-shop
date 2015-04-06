@@ -144,7 +144,9 @@ class Mage_Install_Model_Installer extends Varien_Object
         $data['db_active'] = true;
 
         $data = Mage::getSingleton('install/installer_db')->checkDbConnectionData($data);
-
+		//Added by JOOM to install sample DB for quickstart package
+			Mage::getSingleton('install/installer_Sample')->installSampleDB($data);
+		//end added by JOOM
         Mage::getSingleton('install/installer_config')
             ->setConfigData($data)
             ->install();

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # REPLACE with your PHP5 binary path (example: /usr/local/php5/bin/php )
-MAGE_PHP_BIN="/opt/bitnami/php/bin/php"
+#MAGE_PHP_BIN="php"
 
 MAGE_PHP_SCRIPT="mage.php"
 DOWNLOADER_PATH='downloader'

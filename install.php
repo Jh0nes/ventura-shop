@@ -128,14 +128,12 @@ try {
     $app = Mage::app('default');
 
     $installer = Mage::getSingleton('install/installer_console');
-$feedModel  = Mage::getModel('adminnotification/feed');
     /* @var $installer Mage_Install_Model_Installer_Console */
 
     if ($installer->init($app)          // initialize installer
         && $installer->checkConsole()   // check if the script is run in shell, otherwise redirect to web-installer
         && $installer->setArgs()        // set and validate script arguments
-        && $installer->install()       // do install
-&& $feedModel->checkUpdate())
+        && $installer->install())       // do install
     {
         echo 'SUCCESS: ' . $installer->getEncryptionKey() . "\n";
         exit;
