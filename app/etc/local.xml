@@ -42,8 +42,8 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[mysql]]></password>
-                    <dbname><![CDATA[magento]]></dbname>
+                    <password><![CDATA[PnHTu5GsiUgi]]></password>
+                    <dbname><![CDATA[bitnami_magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
